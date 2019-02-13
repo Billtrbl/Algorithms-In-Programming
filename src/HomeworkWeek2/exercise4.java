@@ -3,6 +3,10 @@ package HomeworkWeek2;
 import java.util.Random;
 
 public class exercise4 {
+	
+	public static void main(String[] args) {
+		randomX();
+	}
 	// randomX
 	public static void randomX() {
 	    Random random = new Random();

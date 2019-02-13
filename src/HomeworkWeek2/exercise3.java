@@ -1,8 +1,11 @@
 package HomeworkWeek2;
 
 public class exercise3 {
+	public static void main(String[] args) {
+		toBinary(40);
+	}
 	
-	public String toBinary(int num) {
+	public static String toBinary(int num) {
 		if (num == 0)
 			return "0";
 
