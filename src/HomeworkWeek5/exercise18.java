@@ -2,8 +2,8 @@ package HomeworkWeek5;
 
 public class exercise18 {
 
-	public class rectangle{
-		
+	public class rectangle {
+
 		private int x;
 		private int y;
 		private int width;

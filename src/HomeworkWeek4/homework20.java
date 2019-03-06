@@ -1,10 +1,17 @@
 package HomeworkWeek4;
 
+import java.awt.Point;
+
 public class homework20 {
 	
-	public boolean contains(int x, int y) {
-	    return this.x <= x && x <= this.x + width && this.y <= y &&
-	        y <= this.y + height;
+	private double x;
+	private double y;
+	private int width;
+	private int height;
+	
+	public boolean contains(double d, double e) {
+	    return this.x <= d && d <= this.x + width && this.y <= e &&
+	        e <= this.y + height;
 	}
 
 	public boolean contains(Point p) {

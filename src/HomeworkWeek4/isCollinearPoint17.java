@@ -1,6 +1,11 @@
 package HomeworkWeek4;
 
+import java.awt.Point;
+
 public class isCollinearPoint17 {
+	
+	private Point p1;
+	private Point p2;
 	
 	public boolean isCollinear(Point p) {
 		
